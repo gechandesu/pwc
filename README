@@ -1,0 +1,13 @@
+pwc
+
+Password Copy
+
+Generate password and copy it to clipboard via xclip. Generated password will not printed in termainal.
+
+Default password lenght is 12 characters.
+
+Usage: pwc [-h | --help] [-s | --special] [-p | --print] [<lenght>]
+
+    -s, --special    use punctuation characters in password.
+    -p, --print      print password to STDOUT instead of copy to clipboard.
+    -h, --help       print this help message and exit.
