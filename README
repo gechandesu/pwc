@@ -1,13 +1,36 @@
 pwc
+===
 
-Password Copy
+Password Copy.
 
-Generate password and copy it to clipboard via xclip. Generated password will not printed in termainal.
+Generate password and copy it to clipboard via xclip. Generated password will not printed in termainal. Default password lenght is 12 characters.
 
-Default password lenght is 12 characters.
+Installation
+============
+
+Just download pwc.py and place it into $PATH. ~/.local/bin/pwc is good choice. Don't forget give execution rights to file:
+
+$ chmod +x pwc.py
+
+pwc requires xclip package. Install xclip for your operating system.
+
+Arch Linux:
+
+$ sudo pacman -S xclip
+
+Ubuntu/Debian:
+
+$ sudo apt install xclip
+
+Usage
+=====
 
 Usage: pwc [-h | --help] [-s | --special] [-p | --print] [<lenght>]
 
     -s, --special    use punctuation characters in password.
     -p, --print      print password to STDOUT instead of copy to clipboard.
     -h, --help       print this help message and exit.
+
+Example:
+
+$ pwc -s 32
