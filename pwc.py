@@ -35,10 +35,10 @@ def generate_pass(special_chars: bool, lenght: int, print_pass: bool) -> str:
         process.stdin.write(pw.encode())  # Put password to STDIN.
 
 def usage():
-    print('Usage: pwc [-h | --help] [-s | --special] [-p | --print] [<lenght>]')
+    print('Usage: pwc [-h|--help] [-s|--special] [-p|--print] [<lenght>]')
 
 def print_help():
-    print('Generate password and copy it to clipboard.')
+    print('Generate password and copy it to clipboard (xclip).')
     print()
     usage()
     print()
