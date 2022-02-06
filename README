@@ -25,7 +25,7 @@ $ sudo apt install xclip
 Usage
 =====
 
-Usage: pwc [-h | --help] [-s | --special] [-p | --print] [<lenght>]
+Usage: pwc [-h|--help] [-s|--special] [-p|--print] [<lenght>]
 
     -s, --special    use punctuation characters in password.
     -p, --print      print password to STDOUT instead of copy to clipboard.
